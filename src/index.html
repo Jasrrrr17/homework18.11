@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/output.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header
+      class="header flex items-center justify-between w-[90%] m-auto mt-[34px] mb-[34px] max-[1040px]:flex-col gap-[30px]"
+    >
+      <nav class="nav_left flex items-center gap-[55px] max-[1040px]:flex-col">
+        <nav class="nav_left_item">
+          <img src="../img/logo.png" alt="" />
+        </nav>
+        <nav class="nav_left_child">
+          <ul class="links flex items-center gap-[55px] max-[1040px]:flex-col">
+            <li class="hover:underline"><a href="#">Аналитика</a></li>
+            <li class="hover:underline"><a href="#">Сообщество</a></li>
+            <li class="hover:underline"><a href="#">Для организаций</a></li>
+          </ul>
+        </nav>
+      </nav>
+      <nav class="nav_right flex items-center gap-[30px] max-[1040px]:flex-col">
+        <button
+          class="w-[195px] h-[36px] bg-transparent border-solid border 2 border-[#3a85f4] rounded-[20px] font-[500] text-[14px] text-[#3a85f4] hover:bg-[#3a85f4] hover:text-[#fff]"
+        >
+          Создать заявку
+        </button>
+        <a href="#"> <img src="../svg/nav1.svg" alt="" /></a>
+        <a href="#"> <img src="../svg/nav2.svg" alt="" /></a>
+      </nav>
+    </header>
+    <section
+      class="showcase w-[90%] m-auto flex items-center justify-between background: linear-gradient(110deg, #fff 0%, #cce7ff 100%); max-[970px]:flex-col"
+    >
+      <div class="showcase_left">
+        <h1
+          class="text-[50px] font-[700] text-[#2f2f2f] pb-[33px] max-[1457px]:text-[40px] max-[1310px]:text-[30px]"
+        >
+          Сообщество <br />
+          взаимопомощи между <br />
+          учёными со всего мира
+        </h1>
+        <p
+          class="font-[400] text-[20px] text-[#2f2f2f] pb-[33px] max-[1457px]:text-[17px] max-[1310px]:text-[13px]"
+        >
+          Удобный сервис, который подберёт для вас коллег и поможет <br />
+          наладить с ними взаимовыгодное сотрудничество в областях <br />
+          совместных исследований, соавторства, рецензирования и <br />
+          повышения индекса цитирования.
+        </p>
+        <button
+          class="bg-[#3a85f4] text-[18px] font-[700] text-[#fff] w-[264px] h-[50px] rounded-[123px] hover:bg-[#fff] hover:text-[#3A85F4] hover:border 2 border-solid border-[#3A85F4]"
+        >
+          Присоединиться
+        </button>
+      </div>
+      <div class="showcase_right max-[970px]:w-full">
+        <img src="../svg/showcase.svg" alt="" />
+      </div>
+    </section>
+    <section class="work mt-[100px] w-[90%] m-auto mb-[100px]">
+      <h1 class="font-[700] text-[40px] text-[#383838] text-center">
+        Как это работает
+      </h1>
+      <div
+        class="work_cards flex items-center justify-between max-[870px]:flex-col"
+      >
+        <div class="work_card">
+          <img src="../svg/work1.svg" alt="" />
+          <p class="font-[400] text-[16px] text-center">
+            Оцените привлекательность <br />
+            темы
+          </p>
+        </div>
+        <div>
+          <img src="../svg/right.svg" alt="" />
+        </div>
+        <div class="work_card">
+          <img src="../svg/work2.svg" alt="" />
+          <p class="font-[400] text-[16px] text-center">
+            Выполните совместные <br />
+            исследования
+          </p>
+        </div>
+        <div>
+          <img src="../svg/right.svg" alt="" />
+        </div>
+        <div class="work_card">
+          <img src="../svg/work3.svg" alt="" />
+          <p class="font-[400] text-[16px] text-center">
+            Улучшите написанную работу
+          </p>
+        </div>
+        <div>
+          <img src="../svg/right.svg" alt="" />
+        </div>
+      </div>
+    </section>
+    <section class="sms w-[90%] m-auto">
+      <div class="sms_title">
+        <h1 class="font-[700] text-[40px] text-[#383838] text-center">
+          Сообщество
+        </h1>
+        <p class="font-[400] text-[20px] text-center pt-[15px] mb-[35px]">
+          Тысячи учёных уже предлагают свою помощь
+        </p>
+      </div>
+      <div
+        class="sms_cards grid grid-cols-3 grid-rows-2 gap-[40px] max-[890px]:grid-cols-2 max-[600px]:grid-cols-1"
+      >
+        <div class="sms_card mb-[50px]">
+          <div class="sms_card_title mb-[27px]">
+            <button
+              class="rounded-[75px] w-[157px] h-[31px] bg-[#fdffe7] font-[900] text-[11px] text-[#bc9300]"
+            >
+              Цитировать других
+            </button>
+            <button
+              class="rounded-[75px] w-[119px] h-[31px] bg-[#ebfffa] font-[900] text-[11px] text-[#00a880]"
+            >
+              Neuro/Psycho
+            </button>
+          </div>
+          <h2 class="pb-[27px]">
+            Вопросы проектирования трансатлантического <br />
+            межнационального продуктопровода в условиях <br />
+            нарастающей коронавирусной пандемии
+          </h2>
+          <h4 class="font-[500] text-[15px] text-[#505050] mb-[10px]">
+            Комментарий
+          </h4>
+          <h4 class="font-[500] text-[15px] text-[#505050] mb-[50px]">
+            Могу ещё помочь со статистической обработкой
+          </h4>
+          <h4 class="font-[500] text-[15px] text-[#505050] mb-[10px]">
+            Вознаграждение
+          </h4>
+          <div class="sms_card_btns flex items-center gap-[10px] mb-[50px]">
+            <button
+              class="font-[400] text-[11px] bg-transparent border 1 border-solid border-[#3a85f4] rounded-[75px] w-[197px] h-[30px] text-[#3a85f4]"
+            >
+              Процитировать других
+            </button>
+            <button
+              class="font-[400] text-[11px] bg-transparent border 1 border-solid border-[#3a85f4] rounded-[75px] w-[197px] h-[30px] text-[#3a85f4]"
+            >
+              Принять в соавторы
+            </button>
+            <button
+              class="border 1 border-solid border-[#3A85F4] rounded-[75px] w-[47px] h-[30px] font-[400] text-[14px] text-[#3a85f4]"
+            >
+              +1
+            </button>
+          </div>
+          <div class="sms_card_buttons flex items-center gap-[15px] mb-[30px]">
+            <button
+              class="flex items-center gap-[8px] font-[400] text-[14px] text-[#2F2F2F] rounded-[75px] w-[200px] h-[30px] bg-[#f3f3f3]"
+            >
+              <img src="../svg/sax.svg" alt="" />первый длинный ключ
+            </button>
+            <button
+              class="flex items-center gap-[8px] font-[400] text-[14px] text-[#2F2F2F] rounded-[75px] w-[134px] h-[30px] bg-[#f3f3f3]"
+            >
+              <img src="../svg/sax.svg" alt="" />второй ключ
+            </button>
+            <button
+              class="font-[400] text-[14px] text-[#2F2F2F] rounded-[75px] w-[50px] h-[30px] bg-[#f3f3f3]"
+            >
+              + 1
+            </button>
+          </div>
+          <div class="sms_card_user flex items-center gap-[11px] mb-[60px]">
+            <div>
+              <img src="../svg/sms1.svg" alt="" />
+            </div>
+            <div>
+              <h3 class="font-[700] text-[16px] text-[#2F2F2F]">
+                Артём Белоусов
+              </h3>
+              <p class="font-[400] text-[14px] text-[#2F2F2F]">
+                учёный (кандидат наук) <br />
+                Санкт-Петербургский горный университет
+              </p>
+            </div>
+          </div>
+          <div class="sms_card_ft flex items-center gap-[80px]">
+            <button
+              class="flex items-center gap-[3px] font-[700] text-[15px] text-center text-[#fff] rounded-[123px] w-[329px] h-[40px] bg-[#d9d9d9] justify-center"
+            >
+              <img src="../svg/ptc.svg" alt="" /><a href="#"
+                >Сотрудничество предложено</a
+              >
+            </button>
+            <button>
+              <a href="#"><img src="../svg/right2.svg" alt="" /></a>
+            </button>
+          </div>
+        </div>
+        <div class="sms_card mb-[50px]">
+          <div class="sms_card_title mb-[27px]">
+            <button
+              class="rounded-[75px] w-[157px] h-[31px] bg-[#fdffe7] font-[900] text-[11px] text-[#bc9300]"
+            >
+              Цитировать других
+            </button>
+            <button
+              class="rounded-[75px] w-[119px] h-[31px] bg-[#ebfffa] font-[900] text-[11px] text-[#00a880]"
+            >
+              Neuro/Psycho
+            </button>
+          </div>
+          <h2 class="pb-[27px]">
+            Вопросы проектирования трансатлантического <br />
+            межнационального продуктопровода в условиях <br />
+            нарастающей коронавирусной пандемии
+          </h2>
+          <h4 class="font-[500] text-[15px] text-[#505050] mb-[10px]">
+            Комментарий
+          </h4>
+          <h4 class="font-[500] text-[15px] text-[#505050] mb-[50px]">
+            Могу ещё помочь со статистической обработкой
+          </h4>
+          <h4 class="font-[500] text-[15px] text-[#505050] mb-[10px]">
+            Вознаграждение
+          </h4>
+          <div class="sms_card_btns flex items-center gap-[10px] mb-[50px]">
+            <button
+              class="font-[400] text-[11px] bg-transparent border 1 border-solid border-[#3a85f4] rounded-[75px] w-[197px] h-[30px] text-[#3a85f4]"
+            >
+              Процитировать других
+            </button>
+            <button
+              class="font-[400] text-[11px] bg-transparent border 1 border-solid border-[#3a85f4] rounded-[75px] w-[197px] h-[30px] text-[#3a85f4]"
+            >
+              Принять в соавторы
+            </button>
+            <button
+              class="border 1 border-solid border-[#3A85F4] rounded-[75px] w-[47px] h-[30px] font-[400] text-[14px] text-[#3a85f4]"
+            >
+              +1
+            </button>
+          </div>
+          <div class="sms_card_buttons flex items-center gap-[15px] mb-[30px]">
+            <button
+              class="flex items-center gap-[8px] font-[400] text-[14px] text-[#2F2F2F] rounded-[75px] w-[200px] h-[30px] bg-[#f3f3f3]"
+            >
+              <img src="../svg/sax.svg" alt="" />первый длинный ключ
+            </button>
+            <button
+              class="flex items-center gap-[8px] font-[400] text-[14px] text-[#2F2F2F] rounded-[75px] w-[134px] h-[30px] bg-[#f3f3f3]"
+            >
+              <img src="../svg/sax.svg" alt="" />второй ключ
+            </button>
+            <button
+              class="font-[400] text-[14px] text-[#2F2F2F] rounded-[75px] w-[50px] h-[30px] bg-[#f3f3f3]"
+            >
+              + 1
+            </button>
+          </div>
+          <div class="sms_card_user flex items-center gap-[11px] mb-[60px]">
+            <div>
+              <img src="../svg/sms1.svg" alt="" />
+            </div>
+            <div>
+              <h3 class="font-[700] text-[16px] text-[#2F2F2F]">
+                Артём Белоусов
+              </h3>
+              <p class="font-[400] text-[14px] text-[#2F2F2F]">
+                учёный (кандидат наук) <br />
+                Санкт-Петербургский горный университет
+              </p>
+            </div>
+          </div>
+          <div class="sms_card_ft flex items-center gap-[80px]">
+            <button
+              class="flex items-center gap-[3px] font-[700] text-[15px] text-center text-[#fff] rounded-[123px] w-[329px] h-[40px] bg-[#d9d9d9] justify-center"
+            >
+              <img src="../svg/ptc.svg" alt="" /><a href="#"
+                >Сотрудничество предложено</a
+              >
+            </button>
+            <button>
+              <a href="#"><img src="../svg/right2.svg" alt="" /></a>
+            </button>
+          </div>
+        </div>
+        <div class="sms_card mb-[50px]">
+          <div class="sms_card_title mb-[27px]">
+            <button
+              class="rounded-[75px] w-[157px] h-[31px] bg-[#fdffe7] font-[900] text-[11px] text-[#bc9300]"
+            >
+              Цитировать других
+            </button>
+            <button
+              class="rounded-[75px] w-[119px] h-[31px] bg-[#ebfffa] font-[900] text-[11px] text-[#00a880]"
+            >
+              Neuro/Psycho
+            </button>
+          </div>
+          <h2 class="pb-[27px]">
+            Вопросы проектирования трансатлантического <br />
+            межнационального продуктопровода в условиях <br />
+            нарастающей коронавирусной пандемии
+          </h2>
+          <h4 class="font-[500] text-[15px] text-[#505050] mb-[10px]">
+            Комментарий
+          </h4>
+          <h4 class="font-[500] text-[15px] text-[#505050] mb-[50px]">
+            Могу ещё помочь со статистической обработкой
+          </h4>
+          <h4 class="font-[500] text-[15px] text-[#505050] mb-[10px]">
+            Вознаграждение
+          </h4>
+          <div class="sms_card_btns flex items-center gap-[10px] mb-[50px]">
+            <button
+              class="font-[400] text-[11px] bg-transparent border 1 border-solid border-[#3a85f4] rounded-[75px] w-[197px] h-[30px] text-[#3a85f4]"
+            >
+              Процитировать других
+            </button>
+            <button
+              class="font-[400] text-[11px] bg-transparent border 1 border-solid border-[#3a85f4] rounded-[75px] w-[197px] h-[30px] text-[#3a85f4]"
+            >
+              Принять в соавторы
+            </button>
+            <button
+              class="border 1 border-solid border-[#3A85F4] rounded-[75px] w-[47px] h-[30px] font-[400] text-[14px] text-[#3a85f4]"
+            >
+              +1
+            </button>
+          </div>
+          <div class="sms_card_buttons flex items-center gap-[15px] mb-[30px]">
+            <button
+              class="flex items-center gap-[8px] font-[400] text-[14px] text-[#2F2F2F] rounded-[75px] w-[200px] h-[30px] bg-[#f3f3f3]"
+            >
+              <img src="../svg/sax.svg" alt="" />первый длинный ключ
+            </button>
+            <button
+              class="flex items-center gap-[8px] font-[400] text-[14px] text-[#2F2F2F] rounded-[75px] w-[134px] h-[30px] bg-[#f3f3f3]"
+            >
+              <img src="../svg/sax.svg" alt="" />второй ключ
+            </button>
+            <button
+              class="font-[400] text-[14px] text-[#2F2F2F] rounded-[75px] w-[50px] h-[30px] bg-[#f3f3f3]"
+            >
+              + 1
+            </button>
+          </div>
+          <div class="sms_card_user flex items-center gap-[11px] mb-[60px]">
+            <div>
+              <img src="../svg/sms1.svg" alt="" />
+            </div>
+            <div>
+              <h3 class="font-[700] text-[16px] text-[#2F2F2F]">
+                Артём Белоусов
+              </h3>
+              <p class="font-[400] text-[14px] text-[#2F2F2F]">
+                учёный (кандидат наук) <br />
+                Санкт-Петербургский горный университет
+              </p>
+            </div>
+          </div>
+          <div class="sms_card_ft flex items-center gap-[80px]">
+            <button
+              class="flex items-center gap-[3px] font-[700] text-[15px] text-center text-[#fff] rounded-[123px] w-[329px] h-[40px] bg-[#d9d9d9] justify-center"
+            >
+              <img src="../svg/ptc.svg" alt="" /><a href="#"
+                >Сотрудничество предложено</a
+              >
+            </button>
+            <button>
+              <a href="#"><img src="../svg/right2.svg" alt="" /></a>
+            </button>
+          </div>
+        </div>
+        <div class="sms_card mb-[50px]">
+          <div class="sms_card_title mb-[27px]">
+            <button
+              class="rounded-[75px] w-[157px] h-[31px] bg-[#fdffe7] font-[900] text-[11px] text-[#bc9300]"
+            >
+              Цитировать других
+            </button>
+            <button
+              class="rounded-[75px] w-[119px] h-[31px] bg-[#ebfffa] font-[900] text-[11px] text-[#00a880]"
+            >
+              Neuro/Psycho
+            </button>
+          </div>
+          <h2 class="pb-[27px]">
+            Вопросы проектирования трансатлантического <br />
+            межнационального продуктопровода в условиях <br />
+            нарастающей коронавирусной пандемии
+          </h2>
+          <h4 class="font-[500] text-[15px] text-[#505050] mb-[10px]">
+            Комментарий
+          </h4>
+          <h4 class="font-[500] text-[15px] text-[#505050] mb-[50px]">
+            Могу ещё помочь со статистической обработкой
+          </h4>
+          <h4 class="font-[500] text-[15px] text-[#505050] mb-[10px]">
+            Вознаграждение
+          </h4>
+          <div class="sms_card_btns flex items-center gap-[10px] mb-[50px]">
+            <button
+              class="font-[400] text-[11px] bg-transparent border 1 border-solid border-[#3a85f4] rounded-[75px] w-[197px] h-[30px] text-[#3a85f4]"
+            >
+              Процитировать других
+            </button>
+            <button
+              class="font-[400] text-[11px] bg-transparent border 1 border-solid border-[#3a85f4] rounded-[75px] w-[197px] h-[30px] text-[#3a85f4]"
+            >
+              Принять в соавторы
+            </button>
+            <button
+              class="border 1 border-solid border-[#3A85F4] rounded-[75px] w-[47px] h-[30px] font-[400] text-[14px] text-[#3a85f4]"
+            >
+              +1
+            </button>
+          </div>
+          <div class="sms_card_buttons flex items-center gap-[15px] mb-[30px]">
+            <button
+              class="flex items-center gap-[8px] font-[400] text-[14px] text-[#2F2F2F] rounded-[75px] w-[200px] h-[30px] bg-[#f3f3f3]"
+            >
+              <img src="../svg/sax.svg" alt="" />первый длинный ключ
+            </button>
+            <button
+              class="flex items-center gap-[8px] font-[400] text-[14px] text-[#2F2F2F] rounded-[75px] w-[134px] h-[30px] bg-[#f3f3f3]"
+            >
+              <img src="../svg/sax.svg" alt="" />второй ключ
+            </button>
+            <button
+              class="font-[400] text-[14px] text-[#2F2F2F] rounded-[75px] w-[50px] h-[30px] bg-[#f3f3f3]"
+            >
+              + 1
+            </button>
+          </div>
+          <div class="sms_card_user flex items-center gap-[11px] mb-[60px]">
+            <div>
+              <img src="../svg/sms1.svg" alt="" />
+            </div>
+            <div>
+              <h3 class="font-[700] text-[16px] text-[#2F2F2F]">
+                Артём Белоусов
+              </h3>
+              <p class="font-[400] text-[14px] text-[#2F2F2F]">
+                учёный (кандидат наук) <br />
+                Санкт-Петербургский горный университет
+              </p>
+            </div>
+          </div>
+          <div class="sms_card_ft flex items-center gap-[80px]">
+            <button
+              class="flex items-center gap-[3px] font-[700] text-[15px] text-center text-[#fff] rounded-[123px] w-[329px] h-[40px] bg-[#d9d9d9] justify-center"
+            >
+              <img src="../svg/ptc.svg" alt="" /><a href="#"
+                >Сотрудничество предложено</a
+              >
+            </button>
+            <button>
+              <a href="#"><img src="../svg/right2.svg" alt="" /></a>
+            </button>
+          </div>
+        </div>
+        <div class="sms_card mb-[50px]">
+          <div class="sms_card_title mb-[27px]">
+            <button
+              class="rounded-[75px] w-[157px] h-[31px] bg-[#fdffe7] font-[900] text-[11px] text-[#bc9300]"
+            >
+              Цитировать других
+            </button>
+            <button
+              class="rounded-[75px] w-[119px] h-[31px] bg-[#ebfffa] font-[900] text-[11px] text-[#00a880]"
+            >
+              Neuro/Psycho
+            </button>
+          </div>
+          <h2 class="pb-[27px]">
+            Вопросы проектирования трансатлантического <br />
+            межнационального продуктопровода в условиях <br />
+            нарастающей коронавирусной пандемии
+          </h2>
+          <h4 class="font-[500] text-[15px] text-[#505050] mb-[10px]">
+            Комментарий
+          </h4>
+          <h4 class="font-[500] text-[15px] text-[#505050] mb-[50px]">
+            Могу ещё помочь со статистической обработкой
+          </h4>
+          <h4 class="font-[500] text-[15px] text-[#505050] mb-[10px]">
+            Вознаграждение
+          </h4>
+          <div class="sms_card_btns flex items-center gap-[10px] mb-[50px]">
+            <button
+              class="font-[400] text-[11px] bg-transparent border 1 border-solid border-[#3a85f4] rounded-[75px] w-[197px] h-[30px] text-[#3a85f4]"
+            >
+              Процитировать других
+            </button>
+            <button
+              class="font-[400] text-[11px] bg-transparent border 1 border-solid border-[#3a85f4] rounded-[75px] w-[197px] h-[30px] text-[#3a85f4]"
+            >
+              Принять в соавторы
+            </button>
+            <button
+              class="border 1 border-solid border-[#3A85F4] rounded-[75px] w-[47px] h-[30px] font-[400] text-[14px] text-[#3a85f4]"
+            >
+              +1
+            </button>
+          </div>
+          <div class="sms_card_buttons flex items-center gap-[15px] mb-[30px]">
+            <button
+              class="flex items-center gap-[8px] font-[400] text-[14px] text-[#2F2F2F] rounded-[75px] w-[200px] h-[30px] bg-[#f3f3f3]"
+            >
+              <img src="../svg/sax.svg" alt="" />первый длинный ключ
+            </button>
+            <button
+              class="flex items-center gap-[8px] font-[400] text-[14px] text-[#2F2F2F] rounded-[75px] w-[134px] h-[30px] bg-[#f3f3f3]"
+            >
+              <img src="../svg/sax.svg" alt="" />второй ключ
+            </button>
+            <button
+              class="font-[400] text-[14px] text-[#2F2F2F] rounded-[75px] w-[50px] h-[30px] bg-[#f3f3f3]"
+            >
+              + 1
+            </button>
+          </div>
+          <div class="sms_card_user flex items-center gap-[11px] mb-[60px]">
+            <div>
+              <img src="../svg/sms1.svg" alt="" />
+            </div>
+            <div>
+              <h3 class="font-[700] text-[16px] text-[#2F2F2F]">
+                Артём Белоусов
+              </h3>
+              <p class="font-[400] text-[14px] text-[#2F2F2F]">
+                учёный (кандидат наук) <br />
+                Санкт-Петербургский горный университет
+              </p>
+            </div>
+          </div>
+          <div class="sms_card_ft flex items-center gap-[80px]">
+            <button
+              class="flex items-center gap-[3px] font-[700] text-[15px] text-center text-[#fff] rounded-[123px] w-[329px] h-[40px] bg-[#d9d9d9] justify-center"
+            >
+              <img src="../svg/ptc.svg" alt="" /><a href="#"
+                >Сотрудничество предложено</a
+              >
+            </button>
+            <button>
+              <a href="#"><img src="../svg/right2.svg" alt="" /></a>
+            </button>
+          </div>
+        </div>
+        <div class="sms_card mb-[50px]">
+          <div class="sms_card_title mb-[27px]">
+            <button
+              class="rounded-[75px] w-[157px] h-[31px] bg-[#fdffe7] font-[900] text-[11px] text-[#bc9300]"
+            >
+              Цитировать других
+            </button>
+            <button
+              class="rounded-[75px] w-[119px] h-[31px] bg-[#ebfffa] font-[900] text-[11px] text-[#00a880]"
+            >
+              Neuro/Psycho
+            </button>
+          </div>
+          <h2 class="pb-[27px]">
+            Вопросы проектирования трансатлантического <br />
+            межнационального продуктопровода в условиях <br />
+            нарастающей коронавирусной пандемии
+          </h2>
+          <h4 class="font-[500] text-[15px] text-[#505050] mb-[10px]">
+            Комментарий
+          </h4>
+          <h4 class="font-[500] text-[15px] text-[#505050] mb-[50px]">
+            Могу ещё помочь со статистической обработкой
+          </h4>
+          <h4 class="font-[500] text-[15px] text-[#505050] mb-[10px]">
+            Вознаграждение
+          </h4>
+          <div class="sms_card_btns flex items-center gap-[10px] mb-[50px]">
+            <button
+              class="font-[400] text-[11px] bg-transparent border 1 border-solid border-[#3a85f4] rounded-[75px] w-[197px] h-[30px] text-[#3a85f4]"
+            >
+              Процитировать других
+            </button>
+            <button
+              class="font-[400] text-[11px] bg-transparent border 1 border-solid border-[#3a85f4] rounded-[75px] w-[197px] h-[30px] text-[#3a85f4]"
+            >
+              Принять в соавторы
+            </button>
+            <button
+              class="border 1 border-solid border-[#3A85F4] rounded-[75px] w-[47px] h-[30px] font-[400] text-[14px] text-[#3a85f4]"
+            >
+              +1
+            </button>
+          </div>
+          <div class="sms_card_buttons flex items-center gap-[15px] mb-[30px]">
+            <button
+              class="flex items-center gap-[8px] font-[400] text-[14px] text-[#2F2F2F] rounded-[75px] w-[200px] h-[30px] bg-[#f3f3f3]"
+            >
+              <img src="../svg/sax.svg" alt="" />первый длинный ключ
+            </button>
+            <button
+              class="flex items-center gap-[8px] font-[400] text-[14px] text-[#2F2F2F] rounded-[75px] w-[134px] h-[30px] bg-[#f3f3f3]"
+            >
+              <img src="../svg/sax.svg" alt="" />второй ключ
+            </button>
+            <button
+              class="font-[400] text-[14px] text-[#2F2F2F] rounded-[75px] w-[50px] h-[30px] bg-[#f3f3f3]"
+            >
+              + 1
+            </button>
+          </div>
+          <div class="sms_card_user flex items-center gap-[11px] mb-[60px]">
+            <div>
+              <img src="../svg/sms1.svg" alt="" />
+            </div>
+            <div>
+              <h3 class="font-[700] text-[16px] text-[#2F2F2F]">
+                Артём Белоусов
+              </h3>
+              <p class="font-[400] text-[14px] text-[#2F2F2F]">
+                учёный (кандидат наук) <br />
+                Санкт-Петербургский горный университет
+              </p>
+            </div>
+          </div>
+          <div class="sms_card_ft flex items-center gap-[80px]">
+            <button
+              class="flex items-center gap-[3px] font-[700] text-[15px] text-center text-[#fff] rounded-[123px] w-[329px] h-[40px] bg-[#d9d9d9] justify-center"
+            >
+              <img src="../svg/ptc.svg" alt="" /><a href="#"
+                >Сотрудничество предложено</a
+              >
+            </button>
+            <button>
+              <a href="#"><img src="../svg/right2.svg" alt="" /></a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="flex items-center justify-center mb-[100px]">
+      <a href="./about.html">
+        <button
+          class="border-2 border-solid border-[#3a85f4] rounded-[123px] w-[264px] h-[50px] font-[700] text-[18px] text-[#3A85F4] hover:bg-[#3A85F4] hover:text-[#fff]"
+        >
+          Смотреть все
+        </button></a
+      >
+    </div>
+    <footer class="footer bg-[#262628] p-[40px]">
+      <div
+        class="footer_wrapper w-[90%] m-auto flex items-center justify-between max-[1020px]:flex-col gap-[40px]"
+      >
+        <div class="flex items-center gap-[67px] max-[1020px]:flex-col">
+          <div>
+            <p class="font-[400] text-[16px] text-[#fff]">
+              Authortie <br />
+              <span class="text-[#888]"> © Все права защищены</span>
+            </p>
+          </div>
+          <p class="font-[400] text-[16px] text-[#fff]">
+            Политика конфиденциальности
+          </p>
+          <p class="font-[400] text-[16px] text-[#fff]">Аналитика</p>
+          <p class="font-[400] text-[16px] text-[#fff]">Сообщество</p>
+          <p class="font-[400] text-[16px] text-[#fff]">Для организаций</p>
+        </div>
+        <div class="flex items-center gap-[30px]">
+          <img src="../svg/fb.svg" alt="" />
+          <img src="../svg/inst.svg" alt="" />
+          <img src="../svg/tg.svg" alt="" />
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
